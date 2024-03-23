@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local globle</title>
+    <script>
+        //local variables 
+        var a ='usama abbasi <br>';
+        document.write('this is globle variables <br>'+a);
+
+        //goble variables 
+        function abc(){
+            var b ='imra khan';
+            document.write('<br> this is local variables <br>'+ b);
+        };
+        abc();
+
+
+        //Assignment operator
+        document.write('<br> <br>');
+        document.write('Assignment Operators <br>');
+        var a = 9; 
+        var b = 3;
+        a *=  b; 
+        document.write(a);
+
+        //comparison operators
+        document.write('<br> <br>');
+        document.write('comparsion Operators <br>');
+        var x = 6;
+        var y = "6";
+        document.write( x===y);
+
+        document.write('<br> <br>');
+        var x = 6;
+        var y = 10;
+        document.write( x<=y);
+
+        //logical operators &&
+        document.write('<br> <br>');
+        document.write('Logical Operators && <br>');
+        var age = 24;
+        if(age >=20 && age <= 30){
+            document.write('THIS IS TRUE');
+        };
+
+        //logical operators ||
+        document.write('<br> <br>');
+        document.write('Logical Operators || <br>');
+        var x= 10;
+        var z= 19;
+        if( x==14 || z==19){
+            document.write('THIS IS TRUE');
+        };
+
+        //conditonal ternary operators ||
+        document.write('<br> <br>');
+        document.write('conditonal ternary  Operators ? / : <br>');
+        var ages=15;
+        var drive=ages >=18 ? 'yes you Drive' : 'No Drive';
+        document.write(drive);
+
+        
+        //if Statement 
+        document.write('<br> <br>');
+        document.write('THIS IS (if) Statment');
+        document.write('<br> ');
+        var x = 12;
+        var y = 12;
+        if ( x <= y){
+        document.write('THIS IS TRUE STATEMEN');
+        };
+
+        //if and Else Statement 
+        document.write('<br> <br>');
+        document.write('THIS IS IF & ELSE STATEMENT');
+        var a = 16;
+        var b = 10;
+        if(a==b){
+            document.write("<br>This Is True Statement");
+        }else{
+            document.write("<br>This Is False Statement");
+        };
+
+
+        document.write('<br> <br>');
+        var a = 3;
+        var b = 6;
+        document.write(a**=b);
+
+
+        //switch Case
+        document.write('<br> <br>');
+        document.write('Here Is 12 Months Name <br>');
+        var Months = 1;
+        switch(Months){
+            case(1):document.write("January")
+            break;
+            case(2):document.write("Febaruy")
+            break;
+            case(3):document.write("Marxh")
+            break;
+            case(4):document.write("April")
+            break;
+            case(5):document.write("May")
+            break;
+            case(6):document.write("June")
+            break;
+            case(7):document.write("July")
+            break;
+            case(8):document.write("August")
+            break;
+            case(9):document.write("September")
+            break;
+            case(10):document.write("October")
+            break;
+            case(11):document.write("Novermber")
+            break;
+            case(12):document.write("December")
+            break;
+            default:document.write("Pleace Enter The Valid Number")
+        }
+
+        //switch Case with Logic OPerators
+        document.write(' <br> <br>');
+        document.write('switch Case with Logic OPerators <br>');
+        var age = 14;
+        switch(true){
+            case(age>=18 && age<=40 ):document.write("Your Eligible")
+            break;
+            default:document.write("Your Not Eligible")
+        }
+
+        //basic Events
+        //click double-click right-click mouse-hover mouse-out mouse-down mouse-up scroll Resize Unload Load Keyup- Key-press
+
+        document.write(' <br> <br>');
+        function hello(){
+        document.write ("Usama Abbasi");
+        }
+        
+    </script>
+</head>
+<body>
+    <button onclick="hello()">click me </button>
+    <p ondblclick="hello()">double click</p>
+</body>
+</html>
+
+
+[
+{key: 1, name: "usama"},
+{key: 1, name: "usama"},
+{key: 1, name: "usama"},
+{key: 1, name: "usama"},
+{key: 1, name: "usama"},
+{key: 1, name: "usama"}
+]
